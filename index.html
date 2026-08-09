@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Static Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">My Simple Site</div>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="hero">
+      <h1>Welcome to Your 5-Page Static Website</h1>
+      <p>Clean layout, responsive navigation, and visual polish using only HTML, CSS, and JavaScript.</p>
+      <a href="about.html" class="button">Learn More</a>
+    </section>
+
+    <section class="features-grid">
+      <article>
+        <h2>Responsive Design</h2>
+        <p>Adapts smoothly to mobile, tablet, and desktop screens with a simple media query layout.</p>
+      </article>
+      <article>
+        <h2>Modern Navigation</h2>
+        <p>Easy to use top navigation with a mobile-friendly toggle for smaller screens.</p>
+      </article>
+      <article>
+        <h2>Interactive UI</h2>
+        <p>Basic JavaScript powers the mobile menu and form feedback on the contact page.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Simple Static Website. Built with HTML, CSS, and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
